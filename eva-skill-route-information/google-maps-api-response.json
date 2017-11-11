@@ -1,0 +1,302 @@
+{
+   "geocoded_waypoints" : [
+      {
+         "geocoder_status" : "OK",
+         "place_id" : "EjQyMS0wLTIxLTcyIDQ2dGggQXZlLCBMb25nIElzbGFuZCBDaXR5LCBOWSAxMTEwMSwgVVNB",
+         "types" : [ "street_address" ]
+      },
+      {
+         "geocoder_status" : "OK",
+         "place_id" : "Ei41LTMzIFdlc3QgMzNyZCBTdHJlZXQsIE5ldyBZb3JrLCBOWSAxMDAwMSwgVVNB",
+         "types" : [ "street_address" ]
+      }
+   ],
+   "routes" : [
+      {
+         "bounds" : {
+            "northeast" : {
+               "lat" : 40.7481511,
+               "lng" : -73.947407
+            },
+            "southwest" : {
+               "lat" : 40.7415132,
+               "lng" : -73.9859031
+            }
+         },
+         "copyrights" : "Map data ©2017 Google",
+         "legs" : [
+            {
+               "distance" : {
+                  "text" : "2.6 mi",
+                  "value" : 4208
+               },
+               "duration" : {
+                  "text" : "13 mins",
+                  "value" : 800
+               },
+               "duration_in_traffic" : {
+                  "text" : "19 mins",
+                  "value" : 1160
+               },
+               "end_address" : "5-33 West 33rd Street, New York, NY 10001, USA",
+               "end_location" : {
+                  "lat" : 40.7481242,
+                  "lng" : -73.9859031
+               },
+               "start_address" : "21-0-21-72 46th Ave, Long Island City, NY 11101, USA",
+               "start_location" : {
+                  "lat" : 40.745869,
+                  "lng" : -73.947407
+               },
+               "steps" : [
+                  {
+                     "distance" : {
+                        "text" : "190 ft",
+                        "value" : 58
+                     },
+                     "duration" : {
+                        "text" : "1 min",
+                        "value" : 15
+                     },
+                     "end_location" : {
+                        "lat" : 40.7459991,
+                        "lng" : -73.94807469999999
+                     },
+                     "html_instructions" : "Head \u003cb\u003ewest\u003c/b\u003e on \u003cb\u003e46th Ave\u003c/b\u003e toward \u003cb\u003e21st St\u003c/b\u003e",
+                     "polyline" : {
+                        "points" : "uduwFhzibMYbC"
+                     },
+                     "start_location" : {
+                        "lat" : 40.745869,
+                        "lng" : -73.947407
+                     },
+                     "travel_mode" : "DRIVING"
+                  },
+                  {
+                     "distance" : {
+                        "text" : "0.3 mi",
+                        "value" : 412
+                     },
+                     "duration" : {
+                        "text" : "2 mins",
+                        "value" : 142
+                     },
+                     "end_location" : {
+                        "lat" : 40.7424094,
+                        "lng" : -73.9492831
+                     },
+                     "html_instructions" : "Turn \u003cb\u003eleft\u003c/b\u003e at the 1st cross street onto \u003cb\u003e21st St\u003c/b\u003e",
+                     "maneuver" : "turn-left",
+                     "polyline" : {
+                        "points" : "oeuwFl~ibMjCn@rAZ^FPDt@RxAZfAVfDx@b@LVF"
+                     },
+                     "start_location" : {
+                        "lat" : 40.7459991,
+                        "lng" : -73.94807469999999
+                     },
+                     "travel_mode" : "DRIVING"
+                  },
+                  {
+                     "distance" : {
+                        "text" : "0.1 mi",
+                        "value" : 228
+                     },
+                     "duration" : {
+                        "text" : "1 min",
+                        "value" : 52
+                     },
+                     "end_location" : {
+                        "lat" : 40.7416829,
+                        "lng" : -73.95162189999999
+                     },
+                     "html_instructions" : "Turn \u003cb\u003eright\u003c/b\u003e onto the ramp to \u003cb\u003eMidtown Tun\u003c/b\u003e/\u003cb\u003eManhattan\u003c/b\u003e\u003cdiv style=\"font-size:0.9em\"\u003ePartial toll road\u003c/div\u003e",
+                     "polyline" : {
+                        "points" : "aotwF~ejbMb@TDBDBDBB@BDDDBD\\r@BJ@F@T@R@VXdF@ZBP"
+                     },
+                     "start_location" : {
+                        "lat" : 40.7424094,
+                        "lng" : -73.9492831
+                     },
+                     "travel_mode" : "DRIVING"
+                  },
+                  {
+                     "distance" : {
+                        "text" : "0.1 mi",
+                        "value" : 212
+                     },
+                     "duration" : {
+                        "text" : "1 min",
+                        "value" : 36
+                     },
+                     "end_location" : {
+                        "lat" : 40.7415581,
+                        "lng" : -73.9540798
+                     },
+                     "html_instructions" : "Keep \u003cb\u003eleft\u003c/b\u003e and merge onto \u003cb\u003eI-495 W\u003c/b\u003e\u003cdiv style=\"font-size:0.9em\"\u003eToll road\u003c/div\u003e\u003cdiv style=\"font-size:0.9em\"\u003eParts of this road may be closed at certain times or days\u003c/div\u003e",
+                     "maneuver" : "keep-left",
+                     "polyline" : {
+                        "points" : "ojtwFrtjbM@V@T@RZ~@ARCr@?p@A`@Cp@A\\@V?R?P@~@"
+                     },
+                     "start_location" : {
+                        "lat" : 40.7416829,
+                        "lng" : -73.95162189999999
+                     },
+                     "travel_mode" : "DRIVING"
+                  },
+                  {
+                     "distance" : {
+                        "text" : "1.2 mi",
+                        "value" : 1962
+                     },
+                     "duration" : {
+                        "text" : "2 mins",
+                        "value" : 112
+                     },
+                     "end_location" : {
+                        "lat" : 40.7459544,
+                        "lng" : -73.9731185
+                     },
+                     "html_instructions" : "Continue onto \u003cb\u003eQueens Midtown Tunnel\u003c/b\u003e\u003cdiv style=\"font-size:0.9em\"\u003eToll road\u003c/div\u003e\u003cdiv style=\"font-size:0.9em\"\u003eMay be closed at certain times or days\u003c/div\u003e",
+                     "polyline" : {
+                        "points" : "witwF~ckbM@~@?Z?^At@Az@Ep@u@pGCR?@?@E^?@[fCGh@?BA@Gd@UvACRO`AUbAU|@_@dAo@zAm@pAs@jAs@hAoVt_@MVKRKRKVITIVGTIVGTE\\G\\E^Eb@EZAXAX?N?N?P?N@TBRBTDTF\\DVHVHXHTFRHPJNJNHHJLLJNJ|DjCJJJHHJHLJLFLHPDPDLBNBN@P?N@P?PAN?N?N"
+                     },
+                     "start_location" : {
+                        "lat" : 40.7415581,
+                        "lng" : -73.9540798
+                     },
+                     "travel_mode" : "DRIVING"
+                  },
+                  {
+                     "distance" : {
+                        "text" : "240 ft",
+                        "value" : 73
+                     },
+                     "duration" : {
+                        "text" : "1 min",
+                        "value" : 8
+                     },
+                     "end_location" : {
+                        "lat" : 40.7462117,
+                        "lng" : -73.97390890000001
+                     },
+                     "html_instructions" : "Continue onto \u003cb\u003eI-495 W\u003c/b\u003e/\u003cb\u003eQueens Midtown Tunnel\u003c/b\u003e\u003cdiv style=\"font-size:0.9em\"\u003eToll road\u003c/div\u003e\u003cdiv style=\"font-size:0.9em\"\u003eMay be closed at certain times or days\u003c/div\u003e",
+                     "polyline" : {
+                        "points" : "eeuwF~znbMAHAJ?HAFAFAHCHELCHCFWx@"
+                     },
+                     "start_location" : {
+                        "lat" : 40.7459544,
+                        "lng" : -73.9731185
+                     },
+                     "travel_mode" : "DRIVING"
+                  },
+                  {
+                     "distance" : {
+                        "text" : "0.2 mi",
+                        "value" : 309
+                     },
+                     "duration" : {
+                        "text" : "1 min",
+                        "value" : 70
+                     },
+                     "end_location" : {
+                        "lat" : 40.7460402,
+                        "lng" : -73.97678639999999
+                     },
+                     "html_instructions" : "Take the exit on the \u003cb\u003eleft\u003c/b\u003e toward \u003cb\u003eDowntown\u003c/b\u003e\u003cdiv style=\"font-size:0.9em\"\u003eToll road\u003c/div\u003e\u003cdiv style=\"font-size:0.9em\"\u003eMay be closed at certain times or days\u003c/div\u003e",
+                     "maneuver" : "ramp-left",
+                     "polyline" : {
+                        "points" : "yfuwF|_obMGn@CLAFCH_B`FIXCHAJAHAJ?H@J@J@H@HBHDFBJDFDFFDFFHDzA`AFDFF"
+                     },
+                     "start_location" : {
+                        "lat" : 40.7462117,
+                        "lng" : -73.97390890000001
+                     },
+                     "travel_mode" : "DRIVING"
+                  },
+                  {
+                     "distance" : {
+                        "text" : "0.2 mi",
+                        "value" : 383
+                     },
+                     "duration" : {
+                        "text" : "3 mins",
+                        "value" : 154
+                     },
+                     "end_location" : {
+                        "lat" : 40.747705,
+                        "lng" : -73.98076549999999
+                     },
+                     "html_instructions" : "Turn \u003cb\u003eright\u003c/b\u003e onto \u003cb\u003eE 35th St\u003c/b\u003e",
+                     "maneuver" : "turn-right",
+                     "polyline" : {
+                        "points" : "weuwF|qobMGPWt@Wx@Of@q@tBu@|B_@hA}BrH"
+                     },
+                     "start_location" : {
+                        "lat" : 40.7460402,
+                        "lng" : -73.97678639999999
+                     },
+                     "travel_mode" : "DRIVING"
+                  },
+                  {
+                     "distance" : {
+                        "text" : "0.1 mi",
+                        "value" : 187
+                     },
+                     "duration" : {
+                        "text" : "1 min",
+                        "value" : 64
+                     },
+                     "end_location" : {
+                        "lat" : 40.7464513,
+                        "lng" : -73.98191349999999
+                     },
+                     "html_instructions" : "Turn \u003cb\u003eleft\u003c/b\u003e at the 3rd cross street onto \u003cb\u003ePark Ave\u003c/b\u003e",
+                     "maneuver" : "turn-left",
+                     "polyline" : {
+                        "points" : "epuwFxjpbMMb@bC`BrBtAPF"
+                     },
+                     "start_location" : {
+                        "lat" : 40.747705,
+                        "lng" : -73.98076549999999
+                     },
+                     "travel_mode" : "DRIVING"
+                  },
+                  {
+                     "distance" : {
+                        "text" : "0.2 mi",
+                        "value" : 384
+                     },
+                     "duration" : {
+                        "text" : "2 mins",
+                        "value" : 147
+                     },
+                     "end_location" : {
+                        "lat" : 40.7481242,
+                        "lng" : -73.9859031
+                     },
+                     "html_instructions" : "Turn \u003cb\u003eright\u003c/b\u003e onto \u003cb\u003eE 33rd St\u003c/b\u003e\u003cdiv style=\"font-size:0.9em\"\u003eParts of this road may be closed at certain times or days\u003c/div\u003e\u003cdiv style=\"font-size:0.9em\"\u003eDestination will be on the right\u003c/div\u003e",
+                     "maneuver" : "turn-right",
+                     "polyline" : {
+                        "points" : "ihuwF|qpbM_CrHgCbIeAdD"
+                     },
+                     "start_location" : {
+                        "lat" : 40.7464513,
+                        "lng" : -73.98191349999999
+                     },
+                     "travel_mode" : "DRIVING"
+                  }
+               ],
+               "traffic_speed_entry" : [],
+               "via_waypoint" : []
+            }
+         ],
+         "overview_polyline" : {
+            "points" : "uduwFhzibMYbCjCn@rBb@hFlAjEfAz@\\TLj@dAH|@`@jHBl@@RZ~@EfAArAEnA@j@BlDAtAGlBu@pGCVs@~F_ApFu@bC}AlDgBtC}Vl`@m@tAc@zAY~BI~A@fAT|Ab@~APd@V^r@n@hEvCTTTZP^R~@BdACx@Ed@Oj@[`AK|@oBlGIj@Dj@Nf@Z\\tBtAmIzWMb@bC`BdC|AmI|W"
+         },
+         "summary" : "Queens Midtown Tunnel",
+         "warnings" : [],
+         "waypoint_order" : []
+      }
+   ],
+   "status" : "OK"
+}

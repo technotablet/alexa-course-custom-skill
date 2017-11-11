@@ -1,0 +1,16 @@
+{
+  "intents": [
+    {
+      "intent": "RandomQuote"
+    },
+    {
+      "intent": "AuthorQuote",
+      "slots": [
+        {
+          "name": "author",
+          "type": "LIST_OF_AUTHORS"
+        }
+      ]
+    }
+  ]
+}

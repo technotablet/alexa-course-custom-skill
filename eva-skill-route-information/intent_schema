@@ -1,0 +1,41 @@
+{
+  "intents": [
+    {
+      "intent": "RandomQuote"
+    },
+    {
+      "slots": [
+        {
+          "name": "author",
+          "type": "LIST_OF_AUTHORS"
+        }
+      ],
+      "intent": "AuthorQuote"
+    },
+    {
+      "intent": "GetBookmarks"
+    },
+    {
+      "intent": "GetRoute",
+      "slots": [
+        {
+          "name": "bookmarks",
+          "type": "LIST_OF_BOOKMARKS"
+        },
+        {
+          "name": "postaladdress",
+          "type": "AMAZON.PostalAddress"
+        }
+      ]
+    },
+    {
+      "intent": "AMAZON.HelpIntent"
+    },
+    {
+      "intent": "AMAZON.YesIntent"
+    },
+    {
+      "intent": "AMAZON.NoIntent"
+    }
+  ]
+}
