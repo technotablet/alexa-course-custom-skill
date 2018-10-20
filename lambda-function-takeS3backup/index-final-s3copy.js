@@ -1,5 +1,3 @@
-'use strict';
-
 console.log('Loading function');
 
 const aws = require('aws-sdk');
@@ -7,7 +5,7 @@ const aws = require('aws-sdk');
 const s3 = new aws.S3({ apiVersion: '2006-03-01' });
 
 
-exports.handler = (event, context, callback) => {
+exports.handler = async(event, context) => {
     //console.log('Received event:', JSON.stringify(event, null, 2));
 
     // Get the object from the event and show its content type
@@ -17,35 +15,31 @@ exports.handler = (event, context, callback) => {
         Bucket: bucket,
         Key: key,
     };
-    s3.getObject(params, (err, data) => {
-        if (err) {
-            console.log(err);
-            const message = `Error getting object ${key} from bucket ${bucket}. Make sure they exist and your bucket is in the same region as this function.`;
-            console.log(message);
-            callback(message);
-        } else {
-            //console.log('CONTENT TYPE:', data.ContentType);
-            
-            var targetBucket = bucket + "-backup"; //treasuretrove-backup
-            
-            console.log("Copying data from " + bucket + " to " + targetBucket);
-            
-            s3.copyObject({
-                Bucket: targetBucket,
-                Key: key,
-                
-                CopySource: encodeURIComponent(bucket + '/' + key),
-                MetadataDirective: 'COPY'
-            }, function (err, data) {
-                if (err) {
-                    console.log(err, err.stack);
-                } else {
-                    console.log("Copied successfully from " + bucket + " to " + targetBucket);
-                }
-            });
-            
-            callback(null, data.ContentType);
-        }
-    });
+    try {
+        const { ContentType } = await s3.getObject(params).promise();
+        console.log('CONTENT TYPE:', ContentType);
+        //return ContentType;
+
+        var targetBucket = bucket + "-backup"; // treasuretrove-backup
+
+        console.log("Copying " + key + " from " + bucket + " to " + targetBucket);
+
+        const paramsNew = {
+            CopySource: bucket + "/" + encodeURIComponent(key),
+            Bucket: targetBucket,
+            Key: key
+        };
+
+        const FinalOutput = await s3.copyObject(paramsNew).promise();
+        console.log("File " + key + " copied from " + bucket + " to " + targetBucket + " successfully.");
+        return "File copied successfully";
+    }
+    catch (err) {
+        console.log(err);
+        const message = `Error getting object ${key} from bucket ${bucket}. Make sure they exist and your bucket is in the same region as this function.`;
+        console.log(message);
+        throw new Error(message);
+    }
 };
+
 

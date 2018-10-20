@@ -14,15 +14,9 @@ GetBookmarks what are my saved places
 GetBookmarks tell me my favorite destinations
 GetBookmarks my saved destinations
 GetRoute how is the traffic
-GetRoute how far is {bookmarks}
-GetRoute how far is {postaladdress}
-GetRoute how much time will it take me to reach {bookmarks}
-GetRoute how much time will it take me to reach {postaladdress}
-GetRoute how does the traffic look like for {bookmarks}
-GetRoute how does the traffic look like for {postaladdress}
-GetRoute the traffic time to {bookmarks}
-GetRoute the traffic time to {postaladdress}
-GetRoute the route to {bookmarks}
-GetRoute the route to {postaladdress}
-GetRoute {bookmarks}
-GetRoute {postaladdress}
+GetRoute how far is {destination}
+GetRoute how much time will it take me to reach {destination}
+GetRoute how does the traffic look like for {destination}
+GetRoute the traffic time to {destination}
+GetRoute the route to {destination}
+GetRoute {destination}

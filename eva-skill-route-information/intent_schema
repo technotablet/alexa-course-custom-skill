@@ -19,11 +19,7 @@
       "intent": "GetRoute",
       "slots": [
         {
-          "name": "bookmarks",
-          "type": "LIST_OF_BOOKMARKS"
-        },
-        {
-          "name": "postaladdress",
+          "name": "destination",
           "type": "AMAZON.PostalAddress"
         }
       ]
@@ -36,6 +32,9 @@
     },
     {
       "intent": "AMAZON.NoIntent"
+    },
+    {
+      "intent": "AMAZON.FallbackIntent"
     }
   ]
 }
