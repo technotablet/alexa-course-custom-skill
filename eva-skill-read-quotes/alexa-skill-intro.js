@@ -1,5 +1,5 @@
 // Include the Alexa SDK v2
-const Alexa = require("ask-sdk");
+const Alexa = require("ask-sdk-core");
 
 // The "LaunchRequest" intent handler - called when the skill is launched
 const LaunchRequestHandler = {
