@@ -1,0 +1,31 @@
+{
+  "name": "alexa-node-14x-template",
+  "version": "1.1.0",
+  "description": "Alexa Serverless Template for Node 14.x",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/technotablet/alexa-course-custom-skill.git"
+  },
+  "keywords": [
+    "Alexa",
+    "Serverless",
+    "Node.js",
+    "Node14.x"
+  ],
+  "author": "Vivek Kapoor",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/technotablet/alexa-course-custom-skill/issues"
+  },
+  "homepage": "https://github.com/technotablet/alexa-course-custom-skill#readme",
+  "dependencies": {
+    "ask-sdk-core": "^2.11.0",
+    "ask-sdk-model": "^1.37.0",
+    "i18next": "^21.4.2",
+    "i18next-sprintf-postprocessor": "^0.2.2"
+  }
+}
