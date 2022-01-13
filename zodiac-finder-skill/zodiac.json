@@ -1,0 +1,122 @@
+[
+  {
+    "name": "Aries",
+    "start": "03-22",
+    "end": "04-21",
+    "element": "Fire",
+    "symbol": "The Ram",
+    "planet": "Mars",
+    "quality": "Cardinal",
+    "traits": "Brave, Independent and Assertive. You are impulsive and hate to be restricted."
+  },
+  {
+    "name": "Taurus",
+    "start": "04-22",
+    "end": "05-21",
+    "element": "Earth",
+    "symbol": "The Bull",
+    "planet": "Venus",
+    "quality": "Fixed",
+    "traits": "Sensual, have good taste, down to earth, pleasure seeking and stubborn."
+  },
+  {
+    "name": "Gemini",
+    "start": "05-22",
+    "end": "06-21",
+    "element": "Air",
+    "symbol": "The Twins",
+    "planet": "Mercury",
+    "quality": "Mutable",
+    "traits": "Dynamic, with many talents. You like games, and are two-faced and mischievous."
+  },
+  {
+    "name": "Cancer",
+    "start": "06-22",
+    "end": "07-21",
+    "element": "Water",
+    "symbol": "The Crab",
+    "planet": "The Moon",
+    "quality": "Cardinal",
+    "traits": "Sensitive, friend-oriented, practical, and you hate to argue. You do forgive but you do not forget!"
+  },
+  {
+    "name": "Leo",
+    "start": "07-22",
+    "end": "08-21",
+    "element": "Fire",
+    "symbol": "The Lion",
+    "planet": "The Sun",
+    "quality": "Fixed",
+    "traits": "Creative, popular, faithful, dominating, and you also have too much pride!"
+  },
+  {
+    "name": "Virgo",
+    "start": "08-22",
+    "end": "09-21",
+    "element": "Earth",
+    "symbol": "The Virgin",
+    "planet": "Mercury",
+    "quality": "Mutable",
+    "traits": "Successful, creative, and like to please. You are also clever, and can lead others on."
+  },
+  {
+    "name": "Libra",
+    "start": "09-22",
+    "end": "10-21",
+    "element": "Air",
+    "symbol": "The Scales",
+    "planet": "Venus",
+    "quality": "Cardinal",
+    "traits": "Irresistible, adventurous, lavish. You are also indecisive, and have a complicated love life."
+  },
+  {
+    "name": "Scorpio",
+    "start": "10-22",
+    "end": "11-21",
+    "element": "Water",
+    "symbol": "The Scorpion",
+    "planet": "Pluto",
+    "quality": "Fixed",
+    "traits": "Self reliant, powerful, and wise. You are also dominant and secretive."
+  },
+  {
+    "name": "Sagittarius",
+    "start": "11-22",
+    "end": "12-21",
+    "element": "Fire",
+    "symbol": "The Archer",
+    "planet": "Jupiter",
+    "quality": "Mutable",
+    "traits": "Open-minded, achiever, and loving. You are also insensitive and cold."
+  },
+  {
+    "name": "Capricorn",
+    "start": "12-22",
+    "end": "01-21",
+    "element": "Earth",
+    "symbol": "The Goat",
+    "planet": "Saturn",
+    "quality": "Cardinal",
+    "traits": "Hardworking, Straightforward, Loyal, Stubborn, and you are not content until at the top."
+  },
+  {
+    "name": "Aquarius",
+    "start": "01-22",
+    "end": "02-21",
+    "element": "Air",
+    "symbol": "The Water Bearer",
+    "planet": "Uranus",
+    "quality": "Fixed",
+    "traits": "Setting trends, innovative, and admired. You are also distant and eccentric."
+  },
+  {
+    "name": "Pisces",
+    "start": "02-22",
+    "end": "03-21",
+    "element": "Water",
+    "symbol": "The Fist",
+    "planet": "Neptune",
+    "quality": "Mutable",
+    "traits": "Alluring, free, and sensual. You are also sensitive and cannot function alone."
+  }
+]
