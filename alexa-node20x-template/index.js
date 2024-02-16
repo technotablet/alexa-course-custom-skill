@@ -10,7 +10,10 @@ const LaunchRequestHandler = {
     const speechText = "Hello, I am a sample template.";
 
     // Speak out the speechText via Alexa
-    return handlerInput.responseBuilder.speak(speechText).getResponse();
+    return handlerInput.responseBuilder
+      .speak(speechText)
+      .withShouldEndSession(true)
+      .getResponse();
   }
 };
 
