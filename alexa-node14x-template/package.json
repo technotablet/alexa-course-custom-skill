@@ -25,7 +25,7 @@
   "dependencies": {
     "ask-sdk-core": "^2.11.0",
     "ask-sdk-model": "^1.37.0",
-    "i18next": "^21.4.2",
+    "i18next": "^26.3.4",
     "i18next-sprintf-postprocessor": "^0.2.2"
   }
 }
